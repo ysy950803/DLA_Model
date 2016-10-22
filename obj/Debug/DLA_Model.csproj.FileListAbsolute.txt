@@ -6,3 +6,11 @@ C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\WindowsFormsApplicati
 C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\WindowsFormsApplication7\obj\Debug\DLA_Model.csproj.GenerateResource.Cache
 C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
 C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\DLA_Model\obj\Debug\WindowsFormsApplication7.exe
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\DLA_Model\obj\Debug\WindowsFormsApplication7.pdb
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\DLA_Model\bin\Debug\WindowsFormsApplication7.exe
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\DLA_Model\bin\Debug\WindowsFormsApplication7.pdb
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\DLA_Model\obj\Debug\DLA_Model.csprojResolveAssemblyReference.cache
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\DLA_Model\obj\Debug\DLA_Model.csproj.GenerateResource.Cache
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\DLA_Model\obj\Debug\DLA_Model.Properties.Resources.resources
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\DLA_Model\obj\Debug\DLA_Model.Form1.resources

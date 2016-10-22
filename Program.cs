@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication7
+namespace DLA_Model
 {
     static class Program
     {

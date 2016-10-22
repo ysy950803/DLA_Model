@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using System.Threading;
 
 
-namespace WindowsFormsApplication7
+namespace DLA_Model
 {
     public partial class Form1 : Form
     {
@@ -123,7 +123,6 @@ namespace WindowsFormsApplication7
 
             } // 全程循环层
 
-            //label7.Text = (100.ToString() + "%");//显示百分比
             trace_step = 1;
         }
 

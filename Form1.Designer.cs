@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication7
+﻿namespace DLA_Model
 {
     partial class Form1
     {
@@ -184,7 +184,7 @@
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(375, 350);
+            this.ClientSize = new System.Drawing.Size(374, 351);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.groupBox2);
@@ -192,6 +192,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button3);
             this.Name = "Form1";
+            this.Text = "DLA_Model";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
