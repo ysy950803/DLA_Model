@@ -1,0 +1,31 @@
+F:\work\Project1\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+F:\work\Project1\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+F:\work\Project1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csprojResolveAssemblyReference.cache
+F:\work\Project1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+F:\work\Project1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+F:\work\Project1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.Cache
+F:\work\Project1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+F:\work\Project1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+H:\work\Project1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+H:\work\Project1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+H:\work\Project1\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+H:\work\Project1\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+H:\work\Project1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csprojResolveAssemblyReference.cache
+H:\work\Project1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+H:\work\Project1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+H:\work\Project1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.Cache
+C:\Users\Shengyu Yao\Desktop\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+C:\Users\Shengyu Yao\Desktop\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+C:\Users\Shengyu Yao\Desktop\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+C:\Users\Shengyu Yao\Desktop\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+C:\Users\Shengyu Yao\Desktop\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+C:\Users\Shengyu Yao\Desktop\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+C:\Users\Shengyu Yao\Desktop\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.Cache
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csprojResolveAssemblyReference.cache
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+C:\Users\Shengyu Yao\Documents\Visual Studio 2012\Projects\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.Cache
