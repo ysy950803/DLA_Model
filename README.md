@@ -1,3 +1,4 @@
+
 # DLA_Model
 The computer simulation of Diffusion-Limited Aggregation.
 
@@ -12,3 +13,6 @@ A DLA obtained by allowing random walkers to adhere to a straight line. Differen
 
 A DLA consisting about 33,000 particles obtained by allowing random walkers to adhere to a seed at the center. Different colors indicate different arrival time of the random walkers.
 Computer simulation of DLA is one of the primary means of studying this model. Several methods are available to accomplish this. Simulations can be done on a lattice of any desired geometry of embedding dimension, in fact this has been done in up to 8 dimensions, or the simulation can be done more along the lines of a standard molecular dynamics simulation where a particle is allowed to freely random walk until it gets within a certain critical range at which time it is pulled onto the cluster. Of critical importance is that the number of particles undergoing Brownian motion in the system is kept very low so that only the diffusive nature of the system is present.
+
+![ins1](https://github.com/ysy950803/DLA_Model/blob/master/instruction1.png)
+![ins2](https://github.com/ysy950803/DLA_Model/blob/master/instruction2.png)
