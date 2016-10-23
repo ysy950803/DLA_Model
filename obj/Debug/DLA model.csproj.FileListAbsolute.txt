@@ -1,0 +1,7 @@
+C:\Users\john\Desktop\备份1\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+C:\Users\john\Desktop\备份1\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+C:\Users\john\Desktop\备份1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+C:\Users\john\Desktop\备份1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+C:\Users\john\Desktop\备份1\WindowsFormsApplication7\obj\Debug\DLA model.csproj.GenerateResource.Cache
+C:\Users\john\Desktop\备份1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+C:\Users\john\Desktop\备份1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb

@@ -11,9 +11,9 @@ using System.Threading;
 
 namespace DLA_Model
 {
-    public partial class Form1 : Form
+    public partial class MyDesign : Form
     {
-        public Form1()
+        public MyDesign()
         {
             InitializeComponent();
 
@@ -21,35 +21,33 @@ namespace DLA_Model
 
         public Graphics g;
         private SolidBrush solidblack = new SolidBrush(Color.Black);
-        private SolidBrush solidblue = new SolidBrush(Color.Blue);
-        private SolidBrush solidred = new SolidBrush(Color.Red);
+        private SolidBrush solidblue = new SolidBrush(Color.Pink);
+        private SolidBrush solidred = new SolidBrush(Color.AliceBlue);
 
         // 下面为重要代码
         private Random rand = new Random();
 
-        public const int layout_width = 218; // 方框布局宽度
-        public const int layout_height = 246; // 方框布局高度
-
         bool break_flag = false;
-        public int origin_x = 130; // 原点（起点）坐标
-        public int origin_y = 130;
-        public int radius = 100; // 圆半径
+        public int radius = 50; // 圆半径
         public int[] traceX = new int[50000];
         public int[] traceY = new int[50000];
         int trace_step = 1;
 
         public void produce(Graphics g, SolidBrush ss)
         {
+            // 将原点置于中心
+            int origin_x = drawMap.Width / 2; // 原点（起点）坐标
+            int origin_y = drawMap.Height / 2;
             // 绘制处理，可忽略
-            g = textBox3.CreateGraphics();
-            SolidBrush blackpen3 = new SolidBrush(Color.Black);
-            g.FillRectangle(blackpen3, 130 - 30, 130 - 12, 1, 1);
+            g = drawMap.CreateGraphics();
+            SolidBrush blackpen = new SolidBrush(Color.Black);
+            g.FillRectangle(blackpen, origin_x, origin_y, 1, 1);
 
             // 动态逻辑，produce_step数量级小了会提前终止，太大没必要，浪费资源
             // 在10^4到10^5之间适宜
             for (int produce_step = 0; produce_step < 10000; produce_step++)
             {
-                Application.DoEvents(); // 重点，必须加上，否则父子窗体都假死
+                Application.DoEvents();//重点，必须加上，否则父子窗体都假死
 
                 // 将起点读入轨迹序列
                 traceX[0] = origin_x;
@@ -60,8 +58,8 @@ namespace DLA_Model
                 int random_y = 0;
                 while (true)
                 {
-                    random_x = rand.Next() % layout_width; // 取模，限制随机坐标范围在方框内（Next()函数刷新随机值）
-                    random_y = rand.Next() % layout_height;
+                    random_x = rand.Next() % drawMap.Width; // 取模，限制随机坐标范围在方框内（Next()函数刷新随机值）
+                    random_y = rand.Next() % drawMap.Height;
                     distance = Math.Sqrt((random_x - origin_x) * (random_x - origin_x) + (random_y - origin_y) * (random_y - origin_y)) - radius;
                     distance = Math.Abs(distance); // 取绝对值
                     if (distance <= 1) // 不断产生随机数，直到坐标靠近圆边界为止
@@ -102,8 +100,8 @@ namespace DLA_Model
                             traceY[trace_step] = rand_last_y;
 
                             // 绘制
-                            g = textBox3.CreateGraphics();
-                            g.FillRectangle(ss, traceX[trace_step] - 30, traceY[trace_step] - 12, 1, 1);
+                            g = drawMap.CreateGraphics();
+                            g.FillRectangle(ss, traceX[trace_step], traceY[trace_step], 1, 1);
 
                             // 全局变量处理
                             // 成功延伸绘制后，trace_step自增，下一次produce循环，此层循环次数就会增加
@@ -126,106 +124,94 @@ namespace DLA_Model
             trace_step = 1;
         }
 
-        private void Form1_Paint(object sender, PaintEventArgs e)
+        private void drawMap_Paint(object sender, PaintEventArgs e)
         {
             //g = e.Graphics;
-
         }
 
-        private void button3_Click_1(object sender, EventArgs e)
+        private void draw_Click(object sender, EventArgs e)
         {
-
-            if (radioButton4.Checked)
+            if (first_radioButton.Checked)
             {
-
-                Rectangle rect = new Rectangle(0, 0, 400, 500);
-                SolidBrush b1 = new SolidBrush(Color.White);
-                g = textBox3.CreateGraphics();
-                g.FillRectangle(b1, rect);
-                //r = 30;
-                trackBar1_Scroll(sender, e);
+                Rectangle rect = new Rectangle(0, 0, drawMap.Width, drawMap.Height);
+                SolidBrush clear_brush = new SolidBrush(Color.White);
+                g = drawMap.CreateGraphics();
+                g.FillRectangle(clear_brush, rect);
+                radiusTrackBar_Scroll(sender, e);
                 produce(g, solidblack);
                 traceX.Initialize();
                 traceY.Initialize();
             }
-            if (radioButton5.Checked)
+            if (second_radioButton.Checked)
             {
-                Rectangle rect = new Rectangle(0, 0, 400, 500);
-                SolidBrush b1 = new SolidBrush(Color.White);
-                g = textBox3.CreateGraphics();
-                g.FillRectangle(b1, rect);
-                //r = 30;
-                trackBar1_Scroll(sender, e);
+                Rectangle rect = new Rectangle(0, 0, drawMap.Width, drawMap.Height);
+                SolidBrush clear_brush = new SolidBrush(Color.White);
+                g = drawMap.CreateGraphics();
+                g.FillRectangle(clear_brush, rect);
+                radiusTrackBar_Scroll(sender, e);
                 produce(g, solidblue);
                 traceX.Initialize();
                 traceY.Initialize();
             }
-            if (radioButton6.Checked)
+            if (third_radioButton.Checked)
             {
-                Rectangle rect = new Rectangle(0, 0, 400, 500);
-                SolidBrush b1 = new SolidBrush(Color.White);
-                g = textBox3.CreateGraphics();
-                g.FillRectangle(b1, rect);
+                Rectangle rect = new Rectangle(0, 0, drawMap.Width, drawMap.Height);
+                SolidBrush clear_brush = new SolidBrush(Color.White);
+                g = drawMap.CreateGraphics();
+                g.FillRectangle(clear_brush, rect);
                 //r = 30;
-                trackBar1_Scroll(sender, e);
+                radiusTrackBar_Scroll(sender, e);
                 produce(g, solidred);
                 traceX.Initialize();
                 traceY.Initialize();
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void clear_Click(object sender, EventArgs e)
         {
-            Rectangle rect = new Rectangle(0, 0, 400, 500);
-            SolidBrush b1 = new SolidBrush(Color.White);
-            g = textBox3.CreateGraphics();
-            g.FillRectangle(b1, rect);
+            Rectangle rect = new Rectangle(0, 0, drawMap.Width, drawMap.Height);
+            SolidBrush clear_brush = new SolidBrush(Color.White);
+            g = drawMap.CreateGraphics();
+            g.FillRectangle(clear_brush, rect);
             traceX.Initialize();
             traceY.Initialize();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void radiusTrackBar_Scroll(object sender, EventArgs e)
         {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click_1(object sender, EventArgs e)
-        {
-            if (trackBar1.Value == 0)
-            {
-                g = textBox3.CreateGraphics();
-                Pen solidblue2 = new Pen(Color.Blue);
-                g.DrawEllipse(solidblue2, 0, 0, 10, 10);
-
-            }
-        }
-
-        private void trackBar1_Scroll(object sender, EventArgs e)
-        {
-            g = textBox3.CreateGraphics();
-            Rectangle rect = new Rectangle(0, 0, 400, 500);
-            SolidBrush b1 = new SolidBrush(Color.White);
-            g = textBox3.CreateGraphics();
-            g.FillRectangle(b1, rect);
-            radius = trackBar1.Value + 30;
+            g = drawMap.CreateGraphics();
+            Rectangle rect = new Rectangle(0, 0, drawMap.Width, drawMap.Height);
+            SolidBrush clear_brush = new SolidBrush(Color.White);
+            g = drawMap.CreateGraphics();
+            g.FillRectangle(clear_brush, rect);
+            radius = radiusTrackBar.Value + 50; // 半径范围：50（初始化值）到100（50+50）
             Pen blackpen = new Pen(Color.Black);
-            g.DrawEllipse(blackpen, 130 - radius - 30, 130 - radius - 12, 2 * radius, 2 * radius);
+            g.DrawEllipse(blackpen, drawMap.Width / 2 - radius, drawMap.Height / 2 - radius, 2 * radius, 2 * radius);
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void drawMap_TextChanged(object sender, EventArgs e)
         {
-
 
         }
 
-        private void button5_Click_2(object sender, EventArgs e)
+        private void radioButtons_CheckedChanged(object sender, EventArgs e)
         {
-            Thread.Sleep(1000000);
+
+        }
+
+        private void MyDesign_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void colorGroupBox_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void titleLabel_Click(object sender, EventArgs e)
+        {
+
         }
 
     }

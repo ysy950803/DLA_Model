@@ -1,0 +1,14 @@
+C:\Users\john\Desktop\备份1\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+C:\Users\john\Desktop\备份1\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+C:\Users\john\Desktop\备份1\WindowsFormsApplication7\obj\Debug\DLAmodel.MyDesign.resources
+C:\Users\john\Desktop\备份1\WindowsFormsApplication7\obj\Debug\DLAmodel.Properties.Resources.resources
+C:\Users\john\Desktop\备份1\WindowsFormsApplication7\obj\Debug\DLAmodel.csproj.GenerateResource.Cache
+C:\Users\john\Desktop\备份1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+C:\Users\john\Desktop\备份1\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+C:\Users\john\Desktop\备份1\DLAmodel\obj\Debug\WindowsFormsApplication7.exe
+C:\Users\john\Desktop\备份1\DLAmodel\obj\Debug\WindowsFormsApplication7.pdb
+C:\Users\john\Desktop\备份1\DLAmodel\bin\Debug\WindowsFormsApplication7.exe
+C:\Users\john\Desktop\备份1\DLAmodel\bin\Debug\WindowsFormsApplication7.pdb
+C:\Users\john\Desktop\备份1\DLAmodel\obj\Debug\DLAmodel.MyDesign.resources
+C:\Users\john\Desktop\备份1\DLAmodel\obj\Debug\DLAmodel.Properties.Resources.resources
+C:\Users\john\Desktop\备份1\DLAmodel\obj\Debug\DLAmodel.csproj.GenerateResource.Cache

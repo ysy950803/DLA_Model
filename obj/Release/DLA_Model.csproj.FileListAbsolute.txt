@@ -1,0 +1,7 @@
+C:\Users\Shengyu Yao\Desktop\DLAmodel\bin\Release\DLA_Model.exe
+C:\Users\Shengyu Yao\Desktop\DLAmodel\bin\Release\DLA_Model.pdb
+C:\Users\Shengyu Yao\Desktop\DLAmodel\obj\Release\DLAmodel.MyDesign.resources
+C:\Users\Shengyu Yao\Desktop\DLAmodel\obj\Release\DLA_Model.Properties.Resources.resources
+C:\Users\Shengyu Yao\Desktop\DLAmodel\obj\Release\DLA_Model.csproj.GenerateResource.Cache
+C:\Users\Shengyu Yao\Desktop\DLAmodel\obj\Release\DLA_Model.exe
+C:\Users\Shengyu Yao\Desktop\DLAmodel\obj\Release\DLA_Model.pdb

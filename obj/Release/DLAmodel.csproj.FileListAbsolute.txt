@@ -1,0 +1,15 @@
+C:\Users\john\Desktop\备份1\DLAmodel\bin\Release\WindowsFormsApplication7.exe
+C:\Users\john\Desktop\备份1\DLAmodel\bin\Release\WindowsFormsApplication7.pdb
+C:\Users\john\Desktop\备份1\DLAmodel\obj\Release\DLAmodel.MyDesign.resources
+C:\Users\john\Desktop\备份1\DLAmodel\obj\Release\DLAmodel.Properties.Resources.resources
+C:\Users\john\Desktop\备份1\DLAmodel\obj\Release\DLAmodel.csproj.GenerateResource.Cache
+C:\Users\john\Desktop\备份1\DLAmodel\obj\Release\WindowsFormsApplication7.exe
+C:\Users\john\Desktop\备份1\DLAmodel\obj\Release\WindowsFormsApplication7.pdb
+C:\Users\Shengyu Yao\Desktop\DLAmodel\bin\Release\DLAmodel.exe
+C:\Users\Shengyu Yao\Desktop\DLAmodel\bin\Release\DLAmodel.pdb
+C:\Users\Shengyu Yao\Desktop\DLAmodel\obj\Release\DLAmodel.csprojResolveAssemblyReference.cache
+C:\Users\Shengyu Yao\Desktop\DLAmodel\obj\Release\DLAmodel.MyDesign.resources
+C:\Users\Shengyu Yao\Desktop\DLAmodel\obj\Release\DLAmodel.Properties.Resources.resources
+C:\Users\Shengyu Yao\Desktop\DLAmodel\obj\Release\DLAmodel.csproj.GenerateResource.Cache
+C:\Users\Shengyu Yao\Desktop\DLAmodel\obj\Release\DLAmodel.exe
+C:\Users\Shengyu Yao\Desktop\DLAmodel\obj\Release\DLAmodel.pdb
