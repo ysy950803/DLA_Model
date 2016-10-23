@@ -1,6 +1,5 @@
-
 # DLA_Model
-The computer simulation of Diffusion-Limited Aggregation.
+## The computer simulation of Diffusion-Limited Aggregation.
 
 Diffusion-limited aggregation (DLA) is the process whereby particles undergoing a random walk due to Brownian motion cluster together to form aggregates of such particles. This theory, proposed by T.A. Witten Jr. and L.M. Sander in 1981, is applicable to aggregation in any system where diffusion is the primary means of transport in the system. DLA can be observed in many systems such as electrodeposition, Hele-Shaw flow, mineral deposits, and dielectric breakdown.
 
